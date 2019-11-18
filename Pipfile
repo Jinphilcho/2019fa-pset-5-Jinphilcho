@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+tox = "*"
+tox-travis = "*"
+
+[packages]
+csci-utils = {editable = true,git = "https://github.com/csci-e-29/2019fa-csci-utils-Jinphilcho"}
+dask = "*"
+fastparquet = "*"
+s3fs = "*"
+awscli = "*"
+cytoolz = "*"
+luigi = "*"
+setuptools-scm = "*"
+partd = "*"
+
+[requires]
+python_version = "3.7"
